@@ -4,7 +4,7 @@
 	"type": "fuel-package",
 	"require": {
 		"composer/installers": "*",
-		"leafo/lessphp": "0.5.0"
+		"oyejorge/less.php": "1.*"
 	},
 	"extra": {
 		"installer-name": "less"
