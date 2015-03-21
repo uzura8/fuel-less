@@ -3,7 +3,7 @@
 	"description": "forked from kriansa/fuel-less for capable of installing by composer",
 	"type": "library",
 	"require": {
-		"composer/installers": "*"
+		"composer/installers": "*",
 		"leafo/lessphp": "0.5.0"
 	},
 	"extra": {
