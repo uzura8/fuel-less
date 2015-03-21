@@ -1,7 +1,7 @@
 {
 	"name": "uzura8/fuel-less",
 	"description": "forked from kriansa/fuel-less for capable of installing by composer",
-	"type": "fuel-package",
+	"type": "library",
 	"require": {
 		"composer/installers": "*"
 		"leafo/lessphp": "0.5.0"
