@@ -43,5 +43,6 @@ return array(
 	 * Class to compile less files
 	 * You can create your own driver if you want
 	 */
-	'less_compiler' => 'Less\\Compiler_Node'
+	//'less_compiler' => 'Less\\Compiler_Node'
+	'less_compiler' => 'Less\\Compiler_Lessphp',
 );
