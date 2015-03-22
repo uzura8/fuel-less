@@ -26,7 +26,7 @@ return array(
 	 *
 	 * Default: APPPATH.'vendor/less/'
 	 */
-	'less_source_dir' => APPPATH.'vendor/less/',
+	//'less_source_dir' => APPPATH.'vendor/less/',
 	
 	/**
 	 * As the asset config is a array with multiple paths, you must tell
@@ -37,12 +37,12 @@ return array(
 	 *
 	 * Default: DOCROOT.Config::get('asset.paths.0').Config::get('asset.css_dir'),
 	 */
-	'less_output_dir' => DOCROOT.Config::get('asset.paths.0').Config::get('asset.css_dir'),
+	//'less_output_dir' => DOCROOT.Config::get('asset.paths.0').Config::get('asset.css_dir'),
 
 	/**
 	 * Class to compile less files
 	 * You can create your own driver if you want
 	 */
 	//'less_compiler' => 'Less\\Compiler_Node'
-	'less_compiler' => 'Less\\Compiler_Lessphp',
+	//'less_compiler' => 'Less\\Compiler_Lessphp',
 );
