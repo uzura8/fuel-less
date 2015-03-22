@@ -16,8 +16,7 @@ class Compiler_Lessphp
 	 */
 	public static function _init()
 	{
-		//require_once PKGPATH.'less'.DS.'vendor'.DS.'lessphp'.DS.'lessc.inc.php';
-		require_once PKGPATH.'..'.DS.'vendor'.DS.'"oyejorge'.DS.'less.php'.DS.'lessc.inc.php';
+		require_once PKGPATH.'..'.DS.'vendor'.DS.'oyejorge'.DS.'less.php'.DS.'lessc.inc.php';
 	}
 
 	/**
